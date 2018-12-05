@@ -11,8 +11,7 @@ Tianqi Wang
 ### Table of Content
 - Dataset Overview
 - Data Preprocessing and EDA
-- Model Fitting
-- Results Interpretation
+- Model Fitting and Results
 
 ### Dataset Overview
 The threat of abuse and harassment online prevent many people from expressing themselves and make them give up on seeking different opinions. In the meantime, platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments. Therefore, Kaggle started this competition with the Conversation AI team, a research initiative founded by Jigsaw and Google. The competition could be found here: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
@@ -28,5 +27,15 @@ The dataset we are using consists of comments from Wikipedia’s talk page edits
 - identity_hate
 
 There are 159,571 observations in the training dataset and 153,164 observations in the testing dataset. Since the data was originally used for a Kaggle competition, in the test_labels dataset there are observations with labels of value -1 indicating it was not used for scoring.
+
+### Data Preprocessing and EDA
+
+![alt text](https://user-images.githubusercontent.com/40482785/49547102-af9ec180-f896-11e8-9213-df5ef098f8c6.png)
+
+![alt text](https://user-images.githubusercontent.com/40482785/49547039-90079900-f896-11e8-8e99-f83e327757ac.png)
+
+
+
+### Model Fitting and Results
 
 
