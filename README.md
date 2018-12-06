@@ -41,7 +41,8 @@ The major concern of the data is that most of the comments are clean (i.e., non-
 
 
 
-### Model Fitting and Results
+### Model Fitting
+
 #### Evaluation Metrics Selection
 During the modeling process, we choose multiple different evaluation metrics to evaluate the performance of models based on the nature of our data:
 
