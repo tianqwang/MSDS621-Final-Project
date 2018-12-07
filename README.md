@@ -77,5 +77,6 @@ To ensemble different models, we firstly tried a few models based on tree boosti
 
 
 ### Results
+![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/Optimal_model.png?raw=true) 
 
 
