@@ -77,6 +77,11 @@ To ensemble different models, we firstly tried a few models based on tree boosti
 
 
 ### Results
-![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/Optimal_model.png?raw=true) 
+![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/Optimal_model.png?raw=true)
+
+In terms of evaluation metric, Linear SVC performs the best. But we believe after tuning hyperparameters for ensembling, we will get better results. Besides, Linear SVC trains model the fastest. Refering to interpretability, Linear SVC is also easier for the users to understand and has a simpler internal processing.
+Therefore, we choose Linear SVC as our optimal model.
+
+
 
 
