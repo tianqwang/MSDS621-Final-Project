@@ -55,14 +55,14 @@ Using Multinomial Naive Bayes as our baseline model, we first used k-fold cross 
 
 After checking how these models perform on the test data, we notice that Muninomial Naive Bayes does not perform as well as the other two models while Linear SVC in general out performs the others based on F1 score. 
 
-![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/model_comparison.png?raw=true) 
+![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/model_comp1.png) 
 
 Overall, without any hyperparameter tuning, LinearSVC performs the best initially.
 
 #### Pipeline with Manual Hyperparameter Tuning
 After accounting for the imbalanced data, the F1 score of Logistic Regression model has jumped to an average of 0.9479 while Linear SVC has jumped to 0.9515.
 
-![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/pipeline_comparison.png?raw=true) 
+![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/Pipeline_comp.png) 
 
 #### Grid Search
 
@@ -72,8 +72,8 @@ With the help of grid search, we were able to find the "optimal" hyperparameters
 #### Ensembling
 To ensemble different models, we firstly tried a few models based on tree boosting, then used a voting classfier to ensemble one of the boosting model with the basic models in previous parts. We get a F1 score of 0.973566 and Hamming Loss of 0.024639 using Ensembling.
 
-![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/Boosting_result.png?raw=true) 
-![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/Ensemble_res.png?raw=true) 
+![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/hyperparameter_comp.png) 
+![alt text](https://github.com/tianqwang/MSDS621-Final-Project/blob/master/image/ensemble_comp.png) 
 
 
 ### Results
